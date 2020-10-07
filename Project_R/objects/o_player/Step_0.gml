@@ -14,6 +14,8 @@ if (place_meeting(x, y, o_wall)) {
 	image_xscale = -image_xscale;
 	// flip running direction
 	hsp = -hsp;	
+	// extra jump on wall bounce
+	allowed_jumps ++;
 	
 	// position correction
 	if (hsp > 0) {
@@ -30,7 +32,7 @@ key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || mo
 vsp += grav;
 
 // jump
-if (allowed_jumps > 0) && (key_up)  {
+if (allowed_jumps > 0) && (key_up) && (!idle)  {
 	vsp = jump_height;
 	allowed_jumps--;
 }
@@ -40,7 +42,7 @@ if (place_meeting(x, y + 1, o_floor)) {
 	allowed_jumps = 1;	
 }
 
-// animation
+// handles animations
 if (!dead) and (!idle) {
 	if (!place_meeting(x, y + 1, o_floor)) {
 		sprite_index = s_player_jump;
@@ -62,3 +64,7 @@ if (place_meeting(x, y + vsp, o_floor)) {
 	vsp = 0;
 }
 
+// handles character moving after idle
+if (key_up) && (idle) {
+	idle = false;
+}
