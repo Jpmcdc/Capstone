@@ -2,5 +2,6 @@
 // @author: Juan Pablo Martinez
 
 if (!o_player.dead) {
+	o_logic.gem_counter ++;
 	instance_destroy();
 }

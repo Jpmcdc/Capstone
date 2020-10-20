@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":262.0,"resourceVersion":"1.0","name":"inst_12EA98D3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_logic","path":"objects/o_logic/o_logic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_3D3C0C89","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_big_pirate","path":"objects/o_big_pirate/o_big_pirate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":520.0,"y":441.0,"resourceVersion":"1.0","name":"inst_17557D50","tags":[],"resourceType":"GMRInstance",},
@@ -88,6 +89,7 @@
     {"name":"inst_D8B6F2A","path":"rooms/r_level_9/r_level_9.yy",},
     {"name":"inst_5E7708C8","path":"rooms/r_level_9/r_level_9.yy",},
     {"name":"inst_3B95D1B9","path":"rooms/r_level_9/r_level_9.yy",},
+    {"name":"inst_3D3C0C89","path":"rooms/r_level_9/r_level_9.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
