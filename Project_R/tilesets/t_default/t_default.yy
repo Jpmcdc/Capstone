@@ -1,8 +1,7 @@
 {
-  "name": "t_default",
   "spriteId": {
-    "name": "s_tile_set",
-    "path": "sprites/s_tile_set/s_tile_set.yy",
+    "name": "s_level_tile_set",
+    "path": "sprites/s_level_tile_set/s_level_tile_set.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
@@ -153,6 +152,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "t_default",
   "tags": [],
   "resourceType": "GMTileSet",
 }

@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 4,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -41,7 +41,7 @@
     "spriteId": {"name":"s_player_dead","path":"sprites/s_player_dead/s_player_dead.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 22.0,
+    "playbackSpeed": 4.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

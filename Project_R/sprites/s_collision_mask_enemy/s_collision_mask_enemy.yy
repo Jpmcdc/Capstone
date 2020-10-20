@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 383,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 384,
-  "height": 320,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e61134f5-08be-426e-be7b-9ce60205e211","path":"sprites/s_tile_set/s_tile_set.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e61134f5-08be-426e-be7b-9ce60205e211","path":"sprites/s_tile_set/s_tile_set.yy",},"LayerId":{"name":"3e5dba01-b24b-4ed9-a5e7-e5b3b6fdfeee","path":"sprites/s_tile_set/s_tile_set.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_tile_set","path":"sprites/s_tile_set/s_tile_set.yy",},"resourceVersion":"1.0","name":"e61134f5-08be-426e-be7b-9ce60205e211","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3dc94b10-2874-4183-8280-b32ec208499f","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3dc94b10-2874-4183-8280-b32ec208499f","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},"LayerId":{"name":"33b020f0-5ea8-47c4-8c44-b157c89497be","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_collision_mask_enemy","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},"resourceVersion":"1.0","name":"3dc94b10-2874-4183-8280-b32ec208499f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_tile_set","path":"sprites/s_tile_set/s_tile_set.yy",},
+    "spriteId": {"name":"s_collision_mask_enemy","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cc340ad7-087b-4c6a-b736-3c1371bb0485","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e61134f5-08be-426e-be7b-9ce60205e211","path":"sprites/s_tile_set/s_tile_set.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"053b7ff7-7920-4523-ab08-46c85bfd51f8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3dc94b10-2874-4183-8280-b32ec208499f","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_tile_set","path":"sprites/s_tile_set/s_tile_set.yy",},
+    "parent": {"name":"s_collision_mask_enemy","path":"sprites/s_collision_mask_enemy/s_collision_mask_enemy.yy",},
     "resourceVersion": "1.3",
-    "name": "s_tile_set",
+    "name": "s_collision_mask_enemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e5dba01-b24b-4ed9-a5e7-e5b3b6fdfeee","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33b020f0-5ea8-47c4-8c44-b157c89497be","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Other",
     "path": "folders/Sprites/Other.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_tile_set",
+  "name": "s_collision_mask_enemy",
   "tags": [],
   "resourceType": "GMSprite",
 }
