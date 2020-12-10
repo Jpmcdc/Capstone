@@ -5,6 +5,9 @@
 if (dead) {
 	// stops animation at death
 	image_speed = 0;
+	
 	// stops horizontal movement at death
-	hsp = 0;
+	while (hsp > 0) {
+		hsp -= 0.5;
+	}
 }

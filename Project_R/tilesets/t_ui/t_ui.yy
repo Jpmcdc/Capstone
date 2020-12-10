@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_ui_tile_set",
-    "path": "sprites/s_ui_tile_set/s_ui_tile_set.yy",
-  },
+  "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,

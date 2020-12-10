@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_big_pirate",
-    "path": "sprites/s_big_pirate/s_big_pirate.yy",
+    "name": "s_big_pirate_idle",
+    "path": "sprites/s_big_pirate_idle/s_big_pirate_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
   ],
   "properties": [
     {"varType":0,"value":"2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hsp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"idle","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

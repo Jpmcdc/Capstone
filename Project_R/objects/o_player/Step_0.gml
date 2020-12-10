@@ -2,10 +2,10 @@
 /// @author: Juan Pablo Martinez
 
 // handles horizontal velocity
-if (!idle) { x += hsp; }
+if (!idle) and (!dead) { x += hsp; }
 
 // handles vertical velocity
-if (!idle) { y += vsp; }
+ y += vsp; 
 
 // handles wall collision
 if (place_meeting(x, y, o_wall) && (!dead)) {
@@ -46,12 +46,14 @@ if (place_meeting(x, y + 1, o_floor)) {
 	allowed_jumps = 1;	
 }
 
-// handles animations
+// handles idle animation
+if (idle) { sprite_index = s_player_idle; }
+
+// handles non idle animations
 if (!dead) and (!idle) {
 	if (!place_meeting(x, y + 1, o_floor)) {
 		sprite_index = s_player_jump;
 	} else {
-		// resets running sprite
 		sprite_index = s_player_run;
 	}
 // sets death animation
@@ -73,4 +75,9 @@ if (place_meeting(x, y + vsp, o_floor)) {
 // handles character moving after idle
 if (key_up) && (idle) {
 	idle = false;
+}
+
+// handles roof collision
+if (place_meeting(x, y - 1, o_roof)) {
+	vsp ++;	
 }

@@ -2,7 +2,7 @@
 /// @author: Juan Pablo Martinez
 
 // handles horizontal velocity
-x += hsp;
+if (!idle) { x += hsp; }
 
 // handles wall collision
 if (place_meeting(x, y, o_enemy_wall)) {
@@ -20,3 +20,7 @@ if (place_meeting(x, y, o_enemy_wall)) {
 		x += 55;
 	}
 }
+
+// handles animation
+if (!idle) { sprite_index = s_big_pirate;
+} else { sprite_index = s_big_pirate_idle; }
