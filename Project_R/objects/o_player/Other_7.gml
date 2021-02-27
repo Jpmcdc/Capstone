@@ -10,4 +10,6 @@ if (dead) {
 	while (hsp > 0) {
 		hsp -= 0.5;
 	}
-}
+	
+	var inst = instance_create_layer(o_player.x , o_player.y - 60, "Popup", o_retry_death);
+} 

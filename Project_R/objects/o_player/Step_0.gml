@@ -5,7 +5,7 @@
 if (!idle) and (!dead) { x += hsp; }
 
 // handles vertical velocity
- y += vsp; 
+y += vsp; 
 
 // handles wall collision
 if (place_meeting(x, y, o_wall) && (!dead)) {
@@ -81,3 +81,6 @@ if (key_up) && (idle) {
 if (place_meeting(x, y - 1, o_roof)) {
 	vsp ++;	
 }
+
+// disable double click
+device_mouse_dbclick_enable(false);

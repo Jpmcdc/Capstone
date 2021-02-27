@@ -3,8 +3,8 @@
 //w = display_get_width();
 //h = display_get_height();
 
-w = 900;
-h = 600;
+w = 1248;
+h = 576;
 
 h_half = h/2;
 
